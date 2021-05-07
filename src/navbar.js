@@ -2,9 +2,7 @@ export default function Navbar() {
   return (
     <>
       <nav className="navbar navbar-expand-lg navbar-dark bg-dark">
-        <a className="navbar-brand" href="#">
-          BV Cosmetics
-        </a>
+        <h3 className="navbar-brand">BV Cosmetics</h3>
         <button
           className="navbar-toggler collapsed"
           type="button"
@@ -19,17 +17,15 @@ export default function Navbar() {
         <div className="navbar-collapse collapse" id="navbarsExample05">
           <ul className="navbar-nav ml-auto">
             <li className="nav-item active">
-              <a className="nav-link">
+              <p className="nav-link">
                 Home <span className="sr-only"></span>
-              </a>
+              </p>
             </li>
             <li className="nav-item">
-              <a className="nav-link" href="#">
-                About
-              </a>
+              <p className="nav-link">About</p>
             </li>
             <li className="nav-item dropdown">
-              <a
+              <p
                 className="nav-link dropdown-toggle"
                 id="dropdown05"
                 data-toggle="dropdown"
@@ -37,23 +33,15 @@ export default function Navbar() {
                 aria-expanded="false"
               >
                 Services
-              </a>
+              </p>
               <div className="dropdown-menu" aria-labelledby="dropdown05">
-                <a className="dropdown-item" href="#">
-                  Demo
-                </a>
-                <a className="dropdown-item" href="#">
-                  Tutorials
-                </a>
-                <a className="dropdown-item" href="#">
-                  Offers
-                </a>
+                <p className="dropdown-item">Demo</p>
+                <p className="dropdown-item">Tutorials</p>
+                <p className="dropdown-item">Offers</p>
               </div>
             </li>
             <li className="nav-item">
-              <a className="nav-link disabled" href="#">
-                Contact
-              </a>
+              <p className="nav-link disabled">Contact</p>
             </li>
           </ul>
         </div>

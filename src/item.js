@@ -14,7 +14,7 @@ function Items(props) {
           <hr />
           <h5 className="text-muted">Rating:{props.place.product_rating}</h5>
           <hr className="mb-1" />
-          <a className="d-flex justify-content-center align-items-center">
+          {
             <button
               className="btn btn-secondary"
               disabled={props.place.clicked}
@@ -24,7 +24,7 @@ function Items(props) {
             >
               Add to Cart
             </button>
-          </a>
+          }
         </div>
       </div>
     </>
